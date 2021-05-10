@@ -7,14 +7,15 @@
                          [unit]="unit"></jv-detailed-weather>
 
     <div class="card-actions">
-      <a class="card-link" (click)="onToggleBookmark()">
+      <button type="button" class="btn btn-light" (click)="onToggleBookmark()">
         {{ isFavorite ? 'Remover dos favoritos' : 'Adicionar aos favoritos' }}
-      </a>
-      <a class="card-link"
+      </button>
+      
+      <button type="button" class="btn btn-light"
          routerLink="/details"
          [queryParams]="{ lat: cityWeather.city.coord.lat, lon: cityWeather.city.coord.lon }">
         Ver detalhes
-      </a>
+      </button>
     </div>
 
   </div>

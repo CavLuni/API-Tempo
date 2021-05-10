@@ -19,11 +19,7 @@
       "Page"
     ],
     "contextual-lifecycle": true,
-    "directive-class-suffix": [
-      true,
-      "component",
-      "Page"
-    ],
+    "directive-class-suffix": true,
     "directive-selector": [
       true,
       "attribute",

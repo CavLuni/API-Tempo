@@ -12,7 +12,6 @@ import { HomeEffects } from './state/home.effects';
 import { ComponentsModule } from 'src/app/shared/components/components.module';
 import { CurrentWeatherComponent } from './components/current-weather/current-weather.component';
 import { UnitSelectorComponent } from './containers/unit-selector/unit-selector.component';
-/*import { HomeComponent } from './home.component';*/
 
 @NgModule({
   imports: [
@@ -26,8 +25,7 @@ import { UnitSelectorComponent } from './containers/unit-selector/unit-selector.
   declarations: [
     HomePage,
     CurrentWeatherComponent,
-    UnitSelectorComponent
-    /*HomeComponent*/
+    UnitSelectorComponent,
   ],
 })
 export class HomeModule { }
